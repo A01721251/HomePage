@@ -1,0 +1,189 @@
+/* kantumruy-pro-100 - latin */
+@font-face {
+    font-family: 'Kantumruy Pro';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.woff') format('woff'), /* Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-100.svg#KantumruyPro') format('svg'); /* Legacy iOS */
+  }
+  /* kantumruy-pro-regular - latin */
+  @font-face {
+    font-family: 'Kantumruy Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-regular.svg#KantumruyPro') format('svg'); /* Legacy iOS */
+  }
+  /* kantumruy-pro-700 - latin */
+  @font-face {
+    font-family: 'Kantumruy Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-700.svg#KantumruyPro') format('svg'); /* Legacy iOS */
+  }
+  /* kantumruy-pro-italic - latin */
+  @font-face {
+    font-family: 'Kantumruy Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../CompanyHomePage/fonts/kantumruy-pro-v3-latin-italic.svg#KantumruyPro') format('svg'); /* Legacy iOS */
+  }
+
+  html{
+    font-family: "Kantumruy Pro";
+    font-size: 16px;
+  }
+
+  /*    nav     */
+  h1{
+    text-align: center;
+    color: white;
+  }
+  .nav{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 86%;
+  }
+
+  .nav h3{
+    text-decoration:underline;
+    font-weight: 100;
+    color: white;
+    text-decoration-thickness: 0.3px;
+  }
+
+  .bar{
+    background-color: #8B4513;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+
+  /*    Mission/Header      */
+  .mission{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+  }
+  .mission img{
+    max-width: 100%;
+    height: auto;
+    min-height: 30rem;
+    display: block;
+  }
+
+  #textM{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 3;
+    width: 100%;
+  }
+
+  /*    Products    */
+  .store{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F4A460;
+  }
+  .store h2{
+    width: 86%;
+    text-align: center;
+  }
+  .store h3{
+    width: 86%;
+    text-align: center;
+  }
+
+  .items{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 86%;
+    text-align: center;
+  }
+
+  .items img{
+    width: 10rem;
+    height: 14rem;
+    overflow: hidden;
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 100%;
+    min-width: 50%;
+  }
+
+
+  /*    Team    */
+  .team{
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-image: url("../CompanyHomePage/team.jpeg");
+    background-size: cover;
+    color: white;
+  }
+  .team h2{
+    width: 100%;
+  }
+
+  #member{
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px ;
+    padding: 10px;
+    
+  }
+
+  #member img{
+    width: 10rem;
+    height: 14rem;
+  }
+
+  /*    Footer  */
+  .footer{
+    text-align: center;
+    color: white;
+    background-color: #8B4513;
+    padding-top: 3px;
+  }
+
+
+  /*    flexbox responsive  */
+  @media (max-width: 800px) {
+    .items {
+      flex-direction: column;
+    }
+  }
